@@ -23,9 +23,6 @@ const store = useStore();
   <header class="header">
     <div class="logo">{{ t('page.title') }}</div>
     <div class="toolbar">
-      <a href="https://github.com/daidr/truth-table" target="_blank" :title="t('toolbar.github')">
-        <Icon icon="uil:github-alt" />
-      </a>
       <a href="#" :title="t('toolbar.theme')" @click="toggleDark">
         <Icon :icon="isDark ? 'uil:moon' : 'uil:sun'" />
       </a>

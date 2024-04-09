@@ -3,10 +3,6 @@
 
 # 真值表
 
-> 一个心血来潮的小项目
-
-示例地址：[https://tb.daidr.me](https://tb.daidr.me)
-
 ## 功能
 
 通过给定的逻辑表达式来生成真值表，并且能够给出中间过程。lexer与parser的部分使用antlr编写。
@@ -81,7 +77,3 @@ yarn build
 ```
 
 构建的结果会输出到 `dist` 目录下
-
-## 为我投票
-
-<a href="https://www.producthunt.com/posts/truth-table?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-truth&#0045;table" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=349421&theme=light" alt="Truth&#0032;Table - Generate&#0032;corresponding&#0032;truth&#0032;table&#0032;from&#0032;logical&#0032;expression | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>

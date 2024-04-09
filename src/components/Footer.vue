@@ -30,10 +30,6 @@ window.addEventListener('beforeinstallprompt', (e: BeforeInstallPromptEvent) => 
       <Icon icon="uil:browser" />
       {{ t('install.prompt') }}
     </a>
-    <p>
-      Coded By
-      <a target="_blank" href="https://daidr.me">{{ t('footer.author') }}</a> With ❤️
-    </p>
   </footer>
 </template>
 
